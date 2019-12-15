@@ -8,3 +8,7 @@ git clone: https://github.com/Zeurkeur/finalproject.git
 # All images have also been provided within the github repository as well. 
 # '/' is where the root directory should be. 
 # 127.0.0.1:3000 port is where it should start. 
+
+
+# To initialize the project, change the cd in CMD to cd ...\final-master, then run a node myserver.js. Exepected response:
+# "Server is running on port 3000"
