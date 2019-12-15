@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Final Project SJU</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body{
+
+
+      background-color: #BA0C2F;
+
+
+    }
+
+    .table{
+      background-color: white;
+    }
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+  <center><img src="https://cdn.usteamcolors.com/images/ncaa/division-1/st-johns-red-storm-logo.png" width="200" height="300" alt="sju"></center>
+  <center><h1>The Lesley H. and William L. Collins College of Professional Studies Class Engine Search</h1></center>
+
+
+
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Course Title</th>
+        <th>Course Code</th>
+        <th>Instructor</th>
+        <th>Day</th>
+        <th>Remaining Seats</th>
+        <th>Lecture or Lab</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td>COMPUTER PROG FUND 1</td>
+        <td>CUS 1115</td>
+        <td>Schweikert, Christina</td>
+        <td>TF</td>
+        <td>2</td>
+        <td>Lecture/Lab</td>
+      </tr>
+      <tr>
+        <td>COMPUTER PROG FUND 1</td>
+        <td>CUS 1115</td>
+        <td>Smith-Thompason, Anne</td>
+        <td>MR</td>
+        <td>1</td>
+        <td>Lecture/Lab</td>
+      </tr>
+      <tr>
+        <td>Computer PROG FUND 2</td>
+        <td>CUS 1116</td>
+        <td>Wu, Jun</td>
+        <td>W</td>
+        <td>16</td>
+        <td>Lecture/Lab</td>
+
+      </tr>
+      <tr>
+        <td>ADVANCED DATA STRUCTURES</td>
+        <td>CUS 1151</td>
+        <td>Keshtkar, Fazel</td>
+        <td>TF</td>
+        <td>13</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>SOFTWARE DESIGN METHODS</td>
+        <td>CUS 1156</td>
+        <td>Bukhari, Syed Ahmad Chan</td>
+        <td>TF</td>
+        <td>5</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>OPERATING SYSTEMS</td>
+        <td>CUS 1163</td>
+        <td>Schweikert, Christina</td>
+        <td>TF</td>
+        <td>5</td>
+        <td>Lecture/Lab</td>
+
+      </tr>
+
+      <tr>
+        <td>DATABASE MANAGEMENT SYSTEMS</td>
+        <td>CUS 1165</td>
+        <td>MacKallar, Bonnie</td>
+        <td>MR</td>
+        <td>3</td>
+        <td>Lecture/Lab</td>
+
+      </tr>
+
+      <tr>
+        <td>COMPUTER ARCHITECTURE</td>
+        <td>CUS 1162</td>
+        <td>Sklar, Ronald</td>
+        <td>T</td>
+        <td>2</td>
+        <td>Hybrid</td>
+
+      </tr>
+
+      <tr>
+        <td>LOGICAL DESIGN</td>
+        <td>CUS 1161</td>
+        <td>Sklar, Ronald</td>
+        <td>T</td>
+        <td>4</td>
+        <td>Lecture/Lab</td>
+
+      </tr>
+
+      <tr>
+        <td>INTENSIVE FRENCH I & II</td>
+        <td>FRE 1010C</td>
+        <td>Hanaburgh, Sara</td>
+        <td>TF</td>
+        <td>4</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>CORE: FRENCH I</td>
+        <td>FRE 1010C</td>
+        <td>Nchare, Abdoulaye</td>
+        <td>TF</td>
+        <td>17</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>CORE: FRENCH II</td>
+        <td>FRE 1020C</td>
+        <td>Goscard Abdou Mfokue, Salif</td>
+        <td>MR</td>
+        <td>10</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>CORE: FRENCH II</td>
+        <td>FRE 1020C</td>
+        <td>Reeck, Matthew</td>
+        <td>MR</td>
+        <td>9</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>CORE: FRENCH III</td>
+        <td>FRE 2030C</td>
+        <td>Petropoulou, Zoe</td>
+        <td>MR</td>
+        <td>20</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>READINGS IN MODERN FRENCH</td>
+        <td>FRE 2050</td>
+        <td>Hanaburgh, Sara</td>
+        <td>MR</td>
+        <td>20</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>MASTERPIECES IN FRENCH LIT.</td>
+        <td>FRE 3100C</td>
+        <td>Puig, Steves</td>
+        <td>TF</td>
+        <td>10</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>FRE & FREANCOPHONE CINEMA</td>
+        <td>FRE 3260</td>
+        <td>Reeck, Matthew</td>
+        <td>MR</td>
+        <td>12</td>
+        <td>Lecture</td>
+
+      </tr>
+
+      <tr>
+        <td>CIVILIZATION OF FRANCE</td>
+        <td>FRE 3560</td>
+        <td>Nchare, Abdoulaye</td>
+        <td>TF</td>
+        <td>17</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>ADV FRENCH GRAMMAR & COMP</td>
+        <td>FRE 3880/td>
+        <td>Walsh, Robert</td>
+        <td>MR</td>
+        <td>22</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>INTRO TO COLLEGE MATH I</td>
+        <td>MTH 1003</td>
+        <td>Chakraborty, Hector</td>
+        <td>TMR</td>
+        <td>0</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>INTRO TO COLLEGE MATH I</td>
+        <td>MTH 1003</td>
+        <td>Chakraborty, Hector</td>
+        <td>MR</td>
+        <td>0</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>INTRO TO COLLEGE MATH I</td>
+        <td>MTH 1003</td>
+        <td>Mollo-Holmes, Linda</td>
+        <td>TM</td>
+        <td>0</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>INTRO TO COLLEGE MATH II</td>
+        <td>MTH 1004</td>
+        <td>Laneri, Peter</td>
+        <td>TF</td>
+        <td>0</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>COLLEGE ALGEBRA & TRIGONOMETRY</td>
+        <td>MTH 1007</td>
+        <td>Manley, Michael</td>
+        <td>TF</td>
+        <td>10</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>MATRIX METHODS</td>
+        <td>MTH 1008</td>
+        <td>Laneri, Peter</td>
+        <td>TF</td>
+        <td>5</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>CALCULUS I</td>
+        <td>MTH 1009</td>
+        <td>Vaisfeld, Michael</td>
+        <td>TF</td>
+        <td>22</td>
+        <td>Lecture</td>
+      </tr>
+
+      <tr>
+        <td>PROBABILITY & STATISTICS</td>
+        <td>MTH 1003</td>
+        <td>Chakraborty, Hector</td>
+        <td>TMR</td>
+        <td>0</td>
+        <td>Lecture</td>
+      </tr>
+
+
+
+    </tbody>
+  </table>
+
+
+
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+id="mycourses.json"
+
+var obj, dbParam, xmlhttp, myObj, x, txt = "";
+obj = { table: "customers", limit: 20 };
+dbParam = JSON.stringify(obj);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    myObj = JSON.parse(this.responseText);
+    txt += "<select>"
+    for (x in myObj) {
+      txt += "<option>" + myObj[x].name;
+    }
+    txt += "</select>"
+    document.getElementById("mycourses").innerHTML = txt;
+  }
+};
+xmlhttp.open("POST", "mycourses.JSON", true);
+xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+</script>
+
+  <center><img src="https://i.ya-webdesign.com/images/black-bar-png-10.png" width="1200" height="40" alt="blackbar"></center>
+</body>
+
+<center><h1>Or, if you would like to see all the classes, down below is a drop-down for that!</h1></center>
+
+
+<center><select class="" name="">
+      <% jsondata.forEach((course) => { %>
+        <option value=""><%= course.title %></option>
+      <% }) %>
+    </select></center>
+
+
+</script>
+</head>
+</html>
