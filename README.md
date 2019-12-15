@@ -3,4 +3,8 @@
 # Node / node.js / EJS / json / Express 
 # All code has been troubleshot and should be ready to go
 
-git clone: 
+git clone: https://github.com/Zeurkeur/finalproject.git
+
+# All images have also been provided within the github repository as well. 
+# '/' is where the root directory should be. 
+# 
